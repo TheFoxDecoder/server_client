@@ -1,3 +1,4 @@
+// Created by Tharuka Kalhara on 1/12/21.
 // Client side implementation of UDP client-server model
 #include <stdio.h>
 #include <stdlib.h>
@@ -37,7 +38,7 @@ int main() {
 	sendto(sockfd, (const char *)hello, strlen(hello),
 	       MSG_CONFIRM, (const struct sockaddr *) &servaddr,
 	       sizeof(servaddr));
-	printf("Hello message sent{tharu}.\n");
+	printf("Hello message sent{0000}.\n");
 
 	n = recvfrom(sockfd, (char *)buffer, MAXLINE,
 	             MSG_WAITALL, (struct sockaddr *) &servaddr,
