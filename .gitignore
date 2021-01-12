@@ -2,3 +2,14 @@
 CMakeLists.txt
 cmake-build-debug
 main.c
+/on_unix/ser
+/TCP/client
+/udp/cli
+/udp/server
+/on_unix/mul
+/on_unix/muliple
+/TCP/server
+/on_unix/a.out
+/multi/multi
+/.
+
